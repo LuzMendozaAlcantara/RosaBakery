@@ -1,0 +1,93 @@
+.footer {
+  background-color: var(--color-primary-light);
+  color: #2c3e50;
+  padding-top: 4rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.infoCol {
+  flex: 1;
+  min-width: 300px;
+}
+
+.title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2rem;
+  color: var(--color-primary-dark);
+  margin-bottom: 1rem;
+}
+
+.description {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--color-primary-dark);
+  transition: all 0.2s ease;
+}
+
+.socialIcon:hover {
+  background-color: var(--color-primary-dark);
+  color: white;
+  transform: translateY(-3px);
+}
+
+.contactCol {
+  flex: 1;
+  min-width: 300px;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.icon {
+  color: var(--color-primary-dark);
+}
+
+.bottomBar {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: var(--color-primary-dark);
+  color: white;
+  font-size: 0.9rem;
+}
